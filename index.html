@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Platzi Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato|Montserrat|Quicksand" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="images/platzi-logo.png" width="100" alt="Platzi - Imágen logotipo">
+      </a>
+      <a href="#" class="login-button btn-red">Inicia sesión</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Cursos</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Live</a></li>
+          <li><a href="#">Agenda</a></li>
+          <li><a href="#">Precios</a></li>
+          <li><a href="#">Empleos</a></li>
+        </ul>
+      </nav><!--.menu-->
+      <form class="search-form">
+        <label>
+          <input class="search-input" type="text" name="buscador" id="buscador" placeholder="Buscar..."/>
+        </label>
+        <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+      </form><!--.buscador-->
+    </header><!-- .header -->
+
+    <section class="front">
+      <div class="container">
+        <article class="post-front">
+          <a href="#">
+            <figure class="post-front-img">
+              <img width="1000" height="627" src="images/angular.jpg" alt="Publicacíón Portada - Imágen" />
+            </figure>
+            <div class="card-front">
+              <header class="card-header">
+                <h2 class="card-title">Crea tu primer proyecto con Angular 2</h2>
+              </header>
+              <footer class="card-footer">
+                <img class="card-img" src="images/Uriel-Ramirez-49.jpg" alt="Autor Uriel Ramirez" />
+                <p class="card-author">Uriel Ramirez</p>
+                <p class="card-date">febrero 23 2017</p>
+              </footer>
+            </div> <!-- .card-front -->
+          </a>
+        </article> <!-- .post-front -->
+      </div> <!-- .container -->
+    </section> <!-- .front -->
+
+    <div class="container">
+      <section id="posts" class="posts">
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/cover.jpg" alt="TypeScript" />
+              </figure>
+              <h4 class="post-title">¿Qué es y cómo usar TypeScript?</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Uriel Ramirez</p>
+              <p class="post-date">febrero 21 2017</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/pexels-photo-270557.jpeg" alt="Editor de Texto" />
+              </figure>
+              <h4 class="post-title">Hackeo y Errores Honestos</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Diana Luque</p>
+              <p class="post-date">febrero 3 2017</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/10715878456_81f302eea7_k.jpg" alt="Control Remoto Netflix" />
+              </figure>
+              <h4 class="post-title">¿Quién se está comiendo a Hollywood?</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Diana Luque</p>
+              <p class="post-date">febrero 3 2017</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/pentesting.jpg" alt="Ataques cibernéticos" />
+              </figure>
+              <h4 class="post-title">Lo que le cuestan los ataques cibernéticos a América Latina</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Diana Luque</p>
+              <p class="post-date">febrero 1 2017</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/cover-miprimer-app.jpg" alt="Josue" />
+              </figure>
+              <h4 class="post-title">Mi primer aplicación móvil</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Josue Echandia</p>
+              <p class="post-date">enero 25 2017</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/cover-pmi.jpg" alt="JWT" />
+              </figure>
+              <h4 class="post-title">¿Cómo lograr que tu proyecto sea exitoso?</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Diana Luque</p>
+              <p class="post-date">febrero 3 2017</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/jwt-cover.jpg" alt="Pizarra" />
+              </figure>
+              <h4 class="post-title">Introducción a JSON Web Tokens (JWT)</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Sergio Daniel Xalambri</p>
+              <p class="post-date">enero 4 2017</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/babel-3.jpg" alt="Babel" />
+              </figure>
+              <h4 class="post-title">¿Qué es y para qué sirve Babel?</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Sergio Daniel Xalambri</p>
+              <p class="post-date">enero 4 2017</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/cover_blog.jpg" alt="Viaje a San Francisco" />
+              </figure>
+              <h4 class="post-title">Gana un viaje a San Francisco con el Taller de Startups</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Juan Pablo Rojas</p>
+              <p class="post-date">diciembre 22 2016</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/cover-isomorfica.jpg" alt="Ilustración desarrollando" />
+              </figure>
+              <h4 class="post-title">¿Qué es una aplicación isomórfica?</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Sergio Daniel Xalambri</p>
+              <p class="post-date">diciembre 21 2016</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/blog-image.jpg" alt="Libro y boligrafo" />
+              </figure>
+              <h4 class="post-title">5 tips para estudiar en línea</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Paula Becerra</p>
+              <p class="post-date">diciembre 20 2016</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/Uber-by-cvander-1.jpg" alt="Coche Uber" />
+              </figure>
+              <h4 class="post-title">¿Cómo funciona un automóvil que se conduce solo?</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Juan Pablo Rojas</p>
+              <p class="post-date">diciembre 19 2016</p>
+            </footer>
+        </article>
+
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/notes-macbook-study-conference-2-min.jpg" alt="Estudiando y tomando notas con Macbook" />
+              </figure>
+              <h4 class="post-title">¿Cómo aprender a programar?</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Paula Becerra</p>
+              <p class="post-date">diciembre 19 2016</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/abogado.jpg" alt="Abogado" />
+              </figure>
+              <h4 class="post-title">¿Por qué un abogado debería aprender a programar?</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Ángel Sumano</p>
+              <p class="post-date">diciembre 13 2016</p>
+            </footer>
+        </article>
+        <article class="post">
+          <a href="#">
+            <header class="post-header">
+              <figure class="post-img">
+                <img src="images/header_talk.jpg" alt="Talk" />
+              </figure>
+              <h4 class="post-title">Llegó el turno de Perú: PlatziTalks Lima</h4>
+            </header>
+          </a>
+            <footer class="post-footer">
+              <p class="post-author">Diego Miramontes</p>
+              <p class="post-date">diciembre 7 2016</p>
+            </footer>
+        </article>
+      </section><!--.posts-->
+    </div>
+
+    <div class="container container-pagination">
+      <div class="pagination">
+        <span class="pages">Página 1 de 32</span>
+        <span class="page active">1</span>
+        <a class="page" href="#">2</a>
+        <a class="page" href="#">3</a>
+        <a class="page" href="#">4</a>
+        <a class="page" href="#">5</a>
+        <a class="page" href="#">Siguiente ›</a>
+        <a class="page" href="#">Última página »</a>
+      </div>
+    </div>
+  </body>
+</html>
