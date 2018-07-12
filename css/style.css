@@ -10,6 +10,7 @@ body, a {
 /** Globales **/
   .container {
     width: 74.4%;
+    max-width: 999px;
     margin: 0 auto;
   }
   .btn-red {
