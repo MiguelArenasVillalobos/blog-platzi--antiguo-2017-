@@ -103,7 +103,7 @@ body, a {
     font-weight: bold;
     padding: 15px ;
   }
-  .nav ul li:hover {
+  .nav ul li:hover a {
     border-top: 5px solid #E74343;
     padding-top: 0;
   }
